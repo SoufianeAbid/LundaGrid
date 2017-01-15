@@ -1,0 +1,17 @@
+
+// @import '../_setting';
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+
+@if ($border-box-sizing == true) {
+  html {
+    box-sizing: border-box;
+  }
+
+  * {
+    &,
+    &::after,
+    &::before {
+      box-sizing: inherit;
+    }
+  }
+}

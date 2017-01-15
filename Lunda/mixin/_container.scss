@@ -1,0 +1,10 @@
+
+//  mixin container
+
+@mixin container(){
+  width: $container + px;
+  padding-right: $margin_left_right / 2 + px;
+  padding-left: $margin_left_right / 2 + px;
+  margin: 0 auto;
+
+}

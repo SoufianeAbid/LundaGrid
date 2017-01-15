@@ -1,0 +1,5 @@
+// mixin offset right
+
+@mixin offset-right($i){
+  margin-left: percentage((calculateColwidth($container, $columns, $gutter,  $margin_left_right) * $i) / $container);
+}

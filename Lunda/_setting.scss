@@ -1,0 +1,21 @@
+
+
+// Global setting for grid
+// don't use unit ( auto use px )
+
+// Grid Setting
+$container: 1170 !default;
+$columns: 12 !default;
+$gutter: 10 !default;
+$margin_left_right: 0 !default;
+
+// Helpers
+
+$border-box-sizing : true !default;
+
+// media query
+
+$media-queries: true;
+
+
+// no-gutters

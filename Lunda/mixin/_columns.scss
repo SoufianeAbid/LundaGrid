@@ -1,0 +1,10 @@
+
+// mixin column
+
+@mixin col($i){
+  width: percentage((calculateColwidth($container, $columns, $gutter,  $margin_left_right) * $i) / $container);
+  float: left;
+  padding-right: $gutter / 2 + px;
+  padding-left: $gutter / 2 + px;
+}
+

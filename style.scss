@@ -1,0 +1,18 @@
+@import "Lunda/_core";
+
+.row{
+  @include row;
+}
+.wrapper{
+  @include container;
+}
+
+.column{
+  @include col(1);
+  height: 200px;
+  background: royalblue;
+}
+.outer{
+  background: aqua;
+  height: inherit;
+}

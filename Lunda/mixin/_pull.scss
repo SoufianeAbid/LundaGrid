@@ -1,0 +1,6 @@
+// mixin pull
+
+@mixin pull($i){
+  position: relative;
+  right: percentage((calculateColwidth($container, $columns, $gutter,  $margin_left_right) * $i) / $container);
+}
