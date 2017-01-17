@@ -1,6 +1,6 @@
 
 // function calc column width
-@function calculateColwidth($container, $columns, $gutter,  $margin_left_right) {
+@function calculateWidth($container, $columns, $gutter,  $margin_left_right) {
   $cal__col__width : floor(( $container - (($columns - 1) * $gutter  * $margin_left_right)) / $columns ) ;
   @return floor($cal__col__width);
 }

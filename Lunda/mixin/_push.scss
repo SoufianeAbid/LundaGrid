@@ -2,5 +2,5 @@
 // mixin push
 @mixin push($i){
   position: relative;
-  left: percentage((calculateColwidth($container, $columns, $gutter,  $margin_left_right) * $i) / $container);
+  left: percentage((calculateWidth($container, $columns, $gutter,  $margin_left_right) * $i) / $container);
 }
