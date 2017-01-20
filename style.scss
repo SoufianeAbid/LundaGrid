@@ -4,7 +4,7 @@
   @include row;
 }
 .wrapper{
-  @include container;
+  @include container(xs);
 }
 
 .column{

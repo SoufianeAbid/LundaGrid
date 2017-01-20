@@ -4,3 +4,13 @@
   $cal__col__width : floor(( $container - (($columns - 1) * $gutter  * $margin_left_right)) / $columns ) ;
   @return floor($cal__col__width);
 }
+
+// function get container size
+
+@function container-sizes($sizeOfContainer:null){
+  @if ( $sizeOfContainer != null){
+    @return map-get(map-get($settings, container), $sizeOfContainer);
+  }@else{
+    @return $container + px;
+  }
+}

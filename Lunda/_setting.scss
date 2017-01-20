@@ -1,15 +1,26 @@
 
 
 // Global setting for grid
-// don't use unit ( auto use px )
 
+// Main Setting
+$settings:(
+  // Container
+  container :  (
+          xlg : 1200px,
+          lg : 992px,
+          md : 768px,
+          sm : 576px,
+          xs: 320px
+  )
+);
 // Grid Setting
-$container: 1170 !default;
+$container : 1170 !default;
 $columns: 12 !default;
 $gutter: 10 !default;
 $margin_left_right: 0 !default;
 
 // Helpers
+
 
 $border-box-sizing : true !default;
 
